@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Lora:ital@0;1&family=Mulish:wght@200&family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 256px;
+  text-align: center;
+  border: 10px solid #101116;
+  background: #101116;
+  border-radius: 5px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(60px, auto);
+}
+
+input[type='text'] {
+  height: 75px;
+  width: 249px;
+  background-color: #10111600;
+  border: 0px;
+  color: #ffffff;
+  text-align: right;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#clear {
+  grid-column: 1/3;
+  grid-row: 1;
+  color: black;
+}
+
+#result {
+  grid-column: 3/5;
+  grid-row: 5;
+  color: black;
+}
+#backspace {
+  color: black;
+}
+
+button {
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #262834;
+  color: #ffffff;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+.highlight {
+  background: green;
+}

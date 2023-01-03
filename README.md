@@ -4,7 +4,7 @@
 
 ## Demo links
 
-Link to demo project [(https://react-ts-af8nkr.stackblitz.io)]((https://react-ts-af8nkr.stackblitz.io)).
+Link to demo project [(https://react-ts-af8nkr.stackblitz.io)](https://react-ts-af8nkr.stackblitz.io).
 
 ## Demo view
 

@@ -1,3 +1,3 @@
 # Calculator-app
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-af8nkr)
+[(https://react-ts-af8nkr.stackblitz.io)]
